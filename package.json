@@ -1,0 +1,21 @@
+{
+  "name": "webhook-listener",
+  "version": "0.1.0",
+  "description":
+    "A simple http server to listen webhook request from Bitbucket.",
+  "main": "webhook.js",
+  "scripts": {
+    "start": "nodemon webhook.js"
+  },
+  "author": "Wei <z12789@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/client": "^4.0.1",
+    "chalk": "^2.3.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  }
+}
